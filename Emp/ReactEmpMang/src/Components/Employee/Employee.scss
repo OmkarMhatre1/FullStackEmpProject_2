@@ -1,0 +1,26 @@
+.body2 {
+  text-align: left;
+  // padding-top: 6px;
+  // padding-bottom: 4px;
+  padding: 8px 8px 8px 8px;
+  .bodynames {
+    color: rgb(107, 94, 94);
+  }
+}
+.body3 {
+  text-align: center;
+  padding: 8px 8px 8px 8px;
+  .delete {
+    margin-left: 15px;
+    &:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+  .edit {
+    &:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+}

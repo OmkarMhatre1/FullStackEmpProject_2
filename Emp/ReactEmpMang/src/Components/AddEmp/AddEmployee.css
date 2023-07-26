@@ -1,0 +1,27 @@
+.first {
+  max-width: 672px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.05);
+  border-width: 1px;
+  border-style: solid;
+}
+.first .second {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.first .third {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.first .third .heading {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}/*# sourceMappingURL=AddEmployee.css.map */

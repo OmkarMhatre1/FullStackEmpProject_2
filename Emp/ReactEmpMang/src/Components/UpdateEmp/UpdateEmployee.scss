@@ -1,0 +1,56 @@
+.main-table {
+  display: flex;
+  justify-content: center;
+  .first {
+    display: flex;
+    align-items: center;
+    //justify-content: center;
+    box-shadow: 0 1px 40px 0 rgba(0, 0, 0, 0.05);
+    width: 672px;
+    // border-style: solid;
+    border-width: 0.5px;
+    .second {
+      padding: 0px 5px 1px 1px;
+      .heading {
+        color: black;
+        //text-align: center;
+        text-shadow: 2px 2px 5px blue;
+      }
+      .table {
+        //display: flex;
+        align-items: center;
+        justify-content: center;
+        .lable {
+          padding-right: 10px;
+          padding-top: 5px;
+          display: block;
+          color: grey;
+        }
+        .inputfield {
+          height: 20px;
+          width: 322px;
+          margin-top: 2px;
+          padding: 2px 2px 2px 2px;
+        }
+        .btn {
+          margin-top: 8px;
+          color: black(204, 86, 86);
+          background-color: burlywood;
+          border-radius: 4px;
+          &:hover {
+            background-color: cornsilk;
+          }
+        }
+        .btn-2 {
+          margin-left: 13px;
+          color: black(204, 86, 86);
+          background-color: red;
+          border-radius: 4px;
+          &:hover {
+            background-color: cadetblue;
+          }
+        }
+      }
+    }
+  }
+}

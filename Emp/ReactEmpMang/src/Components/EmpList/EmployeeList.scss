@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  box-shadow: 0 1px 40px 20px rgba(0, 0, 0, 0.05);
+  .btn {
+    margin-top: 12px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+  }
+}
+.second-div-table {
+  display: flex;
+  //border-bottom: 20px;
+  .tbl {
+    width: 1906px;  
+    //margin-top: 5px;
+    box-shadow: 0 1px 40px 10px rgba(0, 0, 0, 0.05);
+    .thd {
+      background-color: antiquewhite;
+    }
+    .names {
+      color: rgb(153, 150, 150);
+      text-align: left;
+      text-transform: uppercase;
+      padding: 10px 10px 10px 10px;
+      .action {
+        text-align: right;
+      }
+    }
+    .body {
+      background-color: white;
+      }
+    }
+  }
+
+

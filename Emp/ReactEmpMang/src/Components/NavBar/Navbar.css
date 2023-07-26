@@ -1,0 +1,14 @@
+.main-header {
+  background-color: rgb(81, 77, 77);
+  display: flex;
+  width: 2000px;
+}
+.main-header .sub-header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-header .sub-header .header {
+  color: white;
+}/*# sourceMappingURL=Navbar.css.map */
