@@ -1,6 +1,5 @@
 package com.backend.controller;
 
-import com.backend.entity.Employee;
 import com.backend.model.EmployeeRequest;
 import com.backend.model.EmployeeResponse;
 import com.backend.model.EmployeeUpdate;
